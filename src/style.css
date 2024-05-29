@@ -5,7 +5,11 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background: linear-gradient(
+    264deg,
+    rgba(42, 13, 64, 1) 0%,
+    rgba(68, 87, 142, 1) 74%
+  );
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -27,7 +31,7 @@ body {
 
 h1 {
   font-size: 3.2em;
-  padding: 30px 0;
+  padding: 20px 0 40px 0;
 }
 
 #app {

@@ -13,10 +13,10 @@ export default {
   </div>
 </template>
 
-<style>
+<style scoped>
 .container {
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border-top: 2px solid #2a0d40;
+  border-bottom: 2px solid #2a0d40;
   height: 600px;
 }
 img {

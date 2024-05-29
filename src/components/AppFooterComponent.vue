@@ -1,17 +1,19 @@
 <script>
 export default {
-  name: "AppTitle",
+  name: "AppFooter",
 };
 </script>
 
 <template>
-  <h1>La mia prima app con Vite!</h1>
+  <h2>Next Generation Frontend Tooling</h2>
 </template>
 
 <style scoped>
-h1 {
+h2 {
   text-shadow: #4cc0ff 1px 0 10px;
   color: #ffc920;
-  font-size: 60px;
+  font-size: 50px;
+  letter-spacing: 7px;
+  padding-top: 30px;
 }
 </style>

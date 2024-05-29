@@ -1,6 +1,7 @@
 <script>
 import AppTitle from "./components/AppTitleComponent.vue";
 import AppHero from "./components/AppHeroComponent.vue";
+import AppFooter from "./components/AppFooterComponent.vue";
 export default {
   name: "MyApp",
   data() {
@@ -11,6 +12,7 @@ export default {
   components: {
     AppTitle,
     AppHero,
+    AppFooter,
   },
 };
 </script>
@@ -22,6 +24,9 @@ export default {
   <main>
     <AppHero />
   </main>
+  <footer>
+    <AppFooter />
+  </footer>
 </template>
 
 <style></style>
